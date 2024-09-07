@@ -1,0 +1,110 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+
+{% block content %}
+{% comment %} <div class = "container mt-5">
+    <h1 class = "text-warning mb-5 border-bottom">SKILLS</h1>
+
+    <div class="row text-white">
+        <div class="col-sm-5">
+            <h3 class = "mt-5">HTML/CSS</h3>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0",aria-valuemax="100">100%</div>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class = "mt-5">Python</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progeress-bar-animated" role="progressbar" style="width:95%" aria-valuenow="95" aria-valuemin="0",aria-valuemax="100">95%</div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-5 ">
+            <h3 class = "mt-5">AWS</h3>
+            <div class="progress ">
+                <div class="progress-bar progress-bar-striped progeress-bar-animated" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0",aria-valuemax="100">90%</div>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class = "mt-5">Django</h3>
+            <div class="progress ">
+                <div class="progress-bar progress-bar-striped progeress-bar-animated" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0",aria-valuemax="100">80%</div>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-5">
+            <h3 class = "mt-5">SQL</h3>
+            <div class="progress ">
+                <div class="progress-bar progress-bar-striped progeress-bar-animated" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0",aria-valuemax="100">85%</div>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class = "mt-5">GIT</h3>
+            <div class="progress ">
+                <div class="progress-bar progress-bar-striped progeress-bar-animated" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0",aria-valuemax="100">85%</div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</div> {% endcomment %}
+
+<div class = "container mt-5">
+    <h1 class = "text-warning mb-5 border-bottom">Experience</h1>
+
+
+
+    <div class = "mt-5 text-white mx-5 text-justify">
+        
+        <h3 class="text-danger">Consultadd PVT Ltd</h3>
+        <h6>Information System Engineer Level-II 	</h6>
+
+        <div class="px-4 my-5" style = "line-height:2rem" >
+            <p class="text-warning">Data Engineer</p>
+            
+            <ul>
+                <li>Designed and implemented scalable data pipelines on AWS, optimizing data ingestion, transformation, and storage processes for complex federal datasets.</li>
+                <li>Engineered solutions to manage and analyze large-scale federal data, ensuring accuracy, security, and compliance with regulatory standards.</li>
+                <li>Developed ETL processes to streamline data workflows, significantly improving data processing efficiency and reducing latency.</li>
+                <li>Utilized AWS services such as RDS, S3, and Lambda to enhance data integration and analytics capabilities, supporting data-driven decision-making.</li>
+                <li>Collaborated with cross-functional teams to address complex data challenges and deliver actionable insights, contributing to informed strategic planning.</li>
+            </ul>
+        </div>
+
+        <div class="px-4 my-5" style = "line-height:2rem" >
+            <p class="text-warning">Python/AWS Engineer</p>
+            
+            <ul>
+                <li>Automated manual asset report updates by building an end-to-end data ingestion pipeline using AWS Lambda, S3, SQS, and CloudWatch, ensuring real-time data availability.</li>
+                <li>Improved data processing efficiency and solved latency issues by developing an ETL pipeline to export updated asset reports from the database to S3 buckets using AWS services.</li>
+                <li>Integrated AWS Lambda with Django to offload intensive background tasks, such as generating reports and processing bulk data uploads, enhancing the platform’s responsiveness and reducing latency for user-facing features.</li>
+                <li>Reduced asset update delays by 50% through the implementation of event-driven architecture using SQS and Lambda, automating asset updates and the creation of new asset IDs.</li>
+                <li>Cut manual workloads by 80% by automating the upload and retrieval of asset reports, ensuring the database always contained the latest information.</li>
+                <li>Impact: Increased operational efficiency by 60%, minimized human errors, and enabled real-time data access, leading to faster, data-driven decision-making and enhanced scalability.</li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

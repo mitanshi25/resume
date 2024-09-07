@@ -1,0 +1,17 @@
+{% load static %}
+{% load django_browser_reload %}
+<div class="border-right border-danger" style="height: 100vh">
+  <div class="text-center">
+    <img src="{% static 'images1/women.jpg' %}" alt="dp" class="img-fluid rounded-end mt-5" width="50" height="50">
+    <h3 class="text-white mt-3 satisfy-regular">Mitanshi</h3>
+</div>
+
+  <hr class="border-light" />
+  <!-- Sidebar content -->
+  <nav class="nav flex-column text-center">
+    <a href="{% url "home" %}" class="nav-link">Home</a>
+    <a href="{% url "services" %}" class="nav-link">Services</a>
+    <a href="{% url "experience" %}" class="nav-link">Experience</a>
+    <a href="{% url "contact" %}" class="nav-link">Contact</a>
+  </nav>
+</div>

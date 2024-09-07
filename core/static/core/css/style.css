@@ -1,0 +1,30 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  html, body{
+    height: 100%;
+  }
+
+  .i-color{
+    color: chartreuse;
+  }
+
+  .ss-color{
+    color: whitesmoke;
+  }
+
+  a.nav-link {
+    color: whitesmoke; /* Default link color */
+  }
+  
+  /* Hover effect for nav links */
+  a.nav-link:hover {
+    color: black; /* Text color on hover */
+    background-color: #e9cd79; /* Background color on hover */
+  }
+
+
+

@@ -1,0 +1,26 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class= "mt-5 ">
+    <div class = "text-center"> <img src = "{% static "images1/women.jpg" %}" class = "img-thumbnail" width = "150px" height= "800px"></div>
+   
+    <div class = "mt-5 text-white mx-5 text-justify">
+        <h1 class= "font-weight-bold satisfy-regular">Hello,</h1>
+
+        <div class="px-4" style = "line-height:2rem" >
+            <p style = "text-indent:85px;"> I am <b class = "text-warning"> Mitanshi Maheshwari</b> having 2 years of experience. </p>
+            <p> I am software developer at <b class = "text-warning"> Consultadd</b>
+
+            </p>
+            <p>{% lorem 1 b random %}</p>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+<a href="" class="btn btn-outline-info my-3 mr-5">Contact</a>
+    </div>
+
+</div>
+{% endblock content %}

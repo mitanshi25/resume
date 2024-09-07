@@ -1,0 +1,37 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<div class="container mt-5 col-sm-8">
+  <h2>Basic Form Example</h2>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputName" class="form-label"><small class="text-white">Name</small></label>
+      <input type="text" class="form-control" id="exampleInputName" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail" class="form-label"><small class="text-white">Email address</small>Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleTextarea" class="form-label"><small class="text-white">Message</small></label>
+      <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Enter your message"></textarea>
+    </div>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary ">Submit</button>
+    </div>
+  </form>
+  <div class="text-center mt-4">
+    <h5 class="text-white">Connect with me:</h5>
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="btn btn-primary me-2">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="mailto:your.email@gmail.com" class="btn btn-danger me-2">
+      <i class="fas fa-envelope"></i> Gmail
+    </a>
+    <a href="https://github.com/yourprofile" target="_blank" class="btn btn-success">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</div>
+{% endblock %}
