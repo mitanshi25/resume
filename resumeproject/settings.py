@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "resumeproject.urls"
-
+# demo git
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
