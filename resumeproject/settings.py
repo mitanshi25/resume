@@ -57,6 +57,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "resumeproject.urls"
 
+# added another comment 
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
